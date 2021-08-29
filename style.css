@@ -1,0 +1,62 @@
+body {
+    font-size: 15pt;
+    text-align: center;
+    background: black;
+}
+
+.color-boxes{
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.color-boxes div{
+  border: 1px solid white;
+  margin: 10px;
+}
+
+.violet{
+  background: #9c27b0;
+}
+
+.blue{
+  background: #1976d2;
+}
+
+.green{
+  background: #00897b;
+}
+
+.yellow{
+  background: #f9a825;
+}
+
+.square{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 50px;
+  animation: rotate 5500ms infinite;
+}
+
+.titulos{
+  color: white;
+  fill: white;
+  stroke: #000;
+  stroke-width: 3px;
+}
+
+.texto{
+  fill: #000;
+  stroke: #fff;
+  stroke-width: 3px;
+  font-size: 50px;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
